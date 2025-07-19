@@ -5,7 +5,7 @@ import math
 import sentencepiece as spm
 
 sp = spm.SentencePieceProcessor()
-sp.load("c:/Users/User/Desktop/gpt-2/sentencepiece/token_model.model")
+sp.load('sentencepiece/token_model.model')
 
 class LayerNorm(nn.Module):
     def __init__(self, ndim, bias):

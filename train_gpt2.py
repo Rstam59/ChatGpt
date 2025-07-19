@@ -5,7 +5,7 @@ import sentencepiece as spm
 import math
 
 sp = spm.SentencePieceProcessor()
-sp.load("c:/Users/User/Desktop/gpt-2/sentencepiece/token_model.model")
+sp.load('sentencepiece/token_model.model')
 
 
 def get_lr(step, max_lr=6e-4, min_lr=6e-5, warmup_steps=10, max_steps=50):
